@@ -1,0 +1,46 @@
+{
+  "name": "s-url-loader",
+  "version": "1.0.0-beta.2",
+  "description": "内联样式的url转换成base64",
+  "author": "vsion",
+  "homepage": "https://github.com/vsionzhao/s-url-loader",
+  "bugs": "https://github.com/vsionzhao/s-url-loader/issues",
+  "repository": "vsionzhao/s-url-loader",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">= 10.13.0"
+  },
+  "scripts": {
+    "start": "npm run build -- -w",
+    "clean": "del-cli dist",
+    "build": "cross-env NODE_ENV=production babel src -d dist --copy-files",
+    "test": "del-cli test/__snapshots__ && cross-env NODE_ENV=test jest",
+    "lint": "eslint --cache ."
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-syntax-export-default-from": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@webpack-contrib/eslint-config-webpack": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "cross-env": "^7.0.2",
+    "del-cli": "^3.0.1",
+    "eslint": "^7.0.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "jest": "^26.0.1",
+    "loader-utils": "^2.0.0",
+    "mime-types": "^2.1.27",
+    "prettier": "^2.0.5",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  }
+}
