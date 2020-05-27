@@ -82,15 +82,15 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./notice-vue.vue");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./include.vue");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../../node_modules/vue-loader/lib/loaders/templateLoader.js?!../../node_modules/vue-loader/lib/index.js?!../../src/index.js?!./notice-vue.vue?vue&type=template&id=4c7fd09f&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** D:/myself/style-url-loader/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!D:/myself/style-url-loader/node_modules/vue-loader/lib??vue-loader-options!D:/myself/style-url-loader/src??ref--1-1!./notice-vue.vue?vue&type=template&id=4c7fd09f& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "../../node_modules/vue-loader/lib/loaders/templateLoader.js?!../../node_modules/vue-loader/lib/index.js?!../../src/index.js?!./include.vue?vue&type=template&id=eb221cec&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** D:/myself/style-url-loader/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!D:/myself/style-url-loader/node_modules/vue-loader/lib??vue-loader-options!D:/myself/style-url-loader/src??ref--1-1!./include.vue?vue&type=template&id=eb221cec& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -199,8 +199,38 @@ var staticRenderFns = [
                   staticStyle: {
                     "font-size": "32px",
                     color: "#E8EDFF",
-                    background:
-                      "url(data:image/png;base64,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)"
+                    background: "url(/test/fixtures/test2.png)"
+                  }
+                },
+                [
+                  _c("p", { staticStyle: { margin: "0" } }, [
+                    _vm._v("面试"),
+                    _c("span", { staticStyle: { color: "#00FFFF" } }, [
+                      _vm._v("时间")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "p",
+                    {
+                      staticStyle: {
+                        "font-weight": "bold",
+                        margin: "0",
+                        "margin-top": "17px"
+                      }
+                    },
+                    [_vm._v("2020年3月20日 周一 09:00")]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticStyle: {
+                    "font-size": "32px",
+                    color: "#E8EDFF",
+                    background: "url(/test/fixtures/test3.png)"
                   }
                 },
                 [
@@ -349,16 +379,16 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ "./notice-vue.vue":
-/*!************************!*\
-  !*** ./notice-vue.vue ***!
-  \************************/
+/***/ "./include.vue":
+/*!*********************!*\
+  !*** ./include.vue ***!
+  \*********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _notice_vue_vue_vue_type_template_id_4c7fd09f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./notice-vue.vue?vue&type=template&id=4c7fd09f& */ "./notice-vue.vue?vue&type=template&id=4c7fd09f&");
+/* harmony import */ var _include_vue_vue_type_template_id_eb221cec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./include.vue?vue&type=template&id=eb221cec& */ "./include.vue?vue&type=template&id=eb221cec&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "../../node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 var script = {}
@@ -368,8 +398,8 @@ var script = {}
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
   script,
-  _notice_vue_vue_vue_type_template_id_4c7fd09f___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _notice_vue_vue_vue_type_template_id_4c7fd09f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _include_vue_vue_type_template_id_eb221cec___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _include_vue_vue_type_template_id_eb221cec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -379,24 +409,24 @@ var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "notice-vue.vue"
+component.options.__file = "include.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./notice-vue.vue?vue&type=template&id=4c7fd09f&":
-/*!*******************************************************!*\
-  !*** ./notice-vue.vue?vue&type=template&id=4c7fd09f& ***!
-  \*******************************************************/
+/***/ "./include.vue?vue&type=template&id=eb221cec&":
+/*!****************************************************!*\
+  !*** ./include.vue?vue&type=template&id=eb221cec& ***!
+  \****************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_src_index_js_ref_1_1_notice_vue_vue_vue_type_template_id_4c7fd09f___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!../../src??ref--1-1!./notice-vue.vue?vue&type=template&id=4c7fd09f& */ "../../node_modules/vue-loader/lib/loaders/templateLoader.js?!../../node_modules/vue-loader/lib/index.js?!../../src/index.js?!./notice-vue.vue?vue&type=template&id=4c7fd09f&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_src_index_js_ref_1_1_notice_vue_vue_vue_type_template_id_4c7fd09f___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_src_index_js_ref_1_1_include_vue_vue_type_template_id_eb221cec___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/vue-loader/lib??vue-loader-options!../../src??ref--1-1!./include.vue?vue&type=template&id=eb221cec& */ "../../node_modules/vue-loader/lib/loaders/templateLoader.js?!../../node_modules/vue-loader/lib/index.js?!../../src/index.js?!./include.vue?vue&type=template&id=eb221cec&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_src_index_js_ref_1_1_include_vue_vue_type_template_id_eb221cec___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_src_index_js_ref_1_1_notice_vue_vue_vue_type_template_id_4c7fd09f___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_src_index_js_ref_1_1_include_vue_vue_type_template_id_eb221cec___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
