@@ -1,6 +1,6 @@
 {
   "name": "s-url-loader",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "内联样式的url转换成base64",
   "author": "vsion",
   "homepage": "https://github.com/vsionzhao/s-url-loader",
