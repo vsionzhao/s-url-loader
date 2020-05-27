@@ -1,6 +1,6 @@
 
 
-# style-url-loader
+# s-url-loader
 
 将内联样式的图片转换成base64(暂时只支持html和vue文件)
 

@@ -1,7 +1,7 @@
 const {isRegExp} = require('./index');
 
 /**
- * whether the URl is converted to base64
+ * 是否把图片转为base64
  * @param url
  * @param include
  * @param exclude
