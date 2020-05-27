@@ -2,7 +2,7 @@
 
 # s-url-loader
 
-将内联样式的图片转换成base64(暂时只支持html和vue文件)
+将内联样式的背景图片转换成base64(暂时只支持html和vue文件)
 
 ## 使用
 
